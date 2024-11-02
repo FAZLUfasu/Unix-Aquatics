@@ -1,0 +1,45 @@
+name: unix
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove if publishing to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  carousel_slider: ^5.0.0
+  http: ^1.2.2
+  video_player: ^2.2.18
+  youtube_player_flutter: ^9.0.2 
+  intl: ^0.19.0 
+  shared_preferences: ^2.1.0
+  flutter_secure_storage: ^9.2.2
+  path_provider: ^2.1.4
+  cached_network_image: ^3.2.0
+  cupertino_icons: ^1.0.6
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.1
+  flutter_lints: ^5.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/logo/logo.png"
+  # remove_alpha_ios: true # Uncomment if needed
+  min_sdk_android: 24 # Minimum Android SDK version
+  adaptive_icon_background: "#ffffff"
+  adaptive_icon_foreground: "assets/logo/logo.png"
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/unix_logo.png  # Ensure this path is correct
